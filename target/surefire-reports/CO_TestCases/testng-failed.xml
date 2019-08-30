@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CO_TestCases]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Co_FileUpload_TC(failed)" verbose="0">
+    <classes>
+      <class name="test.java.ReportingPageTest">
+        <methods>
+          <include name="advancedReporting_LM"/>
+          <include name="launchDriver"/>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="launchURL"/>
+          <include name="tesrDown"/>
+        </methods>
+      </class> <!-- test.java.ReportingPageTest -->
+    </classes>
+  </test> <!-- Co_FileUpload_TC(failed) -->
+</suite> <!-- Failed suite [CO_TestCases] -->
